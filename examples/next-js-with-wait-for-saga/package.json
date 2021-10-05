@@ -1,0 +1,26 @@
+{
+  "name": "next-js-with-wait-for-saga",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
+    "next": "^11.1.2",
+    "next-redux-wrapper": "^7.0.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.5",
+    "redux": "^4.1.1",
+    "redux-saga": "^1.1.3",
+    "wait-for-saga": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.27"
+  }
+}
