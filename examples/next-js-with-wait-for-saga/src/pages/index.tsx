@@ -1,6 +1,6 @@
-import {NextPageContext} from "next";
-import {actions} from "../redux/slices";
-import {useAppSelector, wrapper} from "../redux/store";
+import {NextPageContext} from "next"
+import {actions} from "../redux/slices"
+import {useAppSelector, wrapper} from "../redux/store"
 import { END } from 'redux-saga'
 import Link from 'next/link'
 
