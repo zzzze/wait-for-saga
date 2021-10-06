@@ -2,7 +2,7 @@
 
 Some toolkits to make sure you can wait for saga to complete and get result from saga.
 
-In some situation, such as `Next.js`, you will need to wait for saga to stop really. Otherwise, page render maybe render page which empty data.
+In some situation, such as `Next.js`, you will need to wait for saga to stop. Otherwise, page renderer may render page which empty data.
 There are some some workarounds to do this, such as use a `setTimeout` to make sure that saga is already completed and data in redux is correct.
 But now, you can use `wait-for-saga` to avoid using `setTimeout`. It will speed up the response of page renderer,
 and make sure the renderer render page using correct data.
